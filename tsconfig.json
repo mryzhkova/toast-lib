@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "types": ["cypress", "node"],
+  },
+  "include": ["src", "index.d.ts", "cypress"],
+  "exclude": ["node_modules", "dist"],
+  "extends": "./tsconfig.paths.json"
+}
